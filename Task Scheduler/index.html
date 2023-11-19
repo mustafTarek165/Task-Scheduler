@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Task Scheduler</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <nav>
+            Task Scheduler
+    </nav>
+    <div class="def">
+       Enter your tasks in pairs on the form
+       x-y where task x has more importance for you than task y,
+       then submit to get the sequence of ordered tasks that you must finish at first.
+    </div>
+    
+    <div>
+       <div>
+Enter tasks in pairs of priority (from your point of view):
+       </div>
+         <div>    
+            <textarea  rows="5" cols="20" name="description" id="txtarea1"></textarea>
+         </div>
+    </div>
+    <div>
+        <input type="submit" id="sub" value="Try">
+    </div>
+           <div class="last1">
+            <div class="txtlabel">The sequence of tasks ordered from the most important to the least important is:</div>
+            <input type="text"id="o"> </input>
+           </div>
+           
+    <script src="main.js"></script>
+</body>
+
+</html>
